@@ -1,0 +1,111 @@
+/* تنسيق عام للجسم */
+body {
+    font-family: 'Arial', sans-serif; /* خط الصفحة */
+    margin: 0; /* إزالة الهوامش */
+    padding: 0; /* إزالة الحشوات */
+    background-color: #eaeaea; /* خلفية رمادية فاتحة */
+    color: #333; /* لون النص */
+}
+
+/* تنسيق الهيدر */
+header {
+    background-color: #fff; /* خلفية بيضاء */
+    text-align: center; /* توسيط النص */
+    padding: 15px 0; /* حشوة فوق وتحت */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+}
+
+/* تنسيق المحتوى الرئيسي */
+.introduction {
+    display: flex; /* ترتيب أفقي */
+    align-items: center; /* توسيط عمودي */
+    justify-content: space-between; /* توزيع المحتويات */
+    padding: 50px 80px; /* حشوة داخلية */
+    background-color: #ffffff; /* خلفية بيضاء */
+    border-radius: 12px; /* زوايا دائرية */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* ظل للصندوق */
+    margin: 40px auto; /* مسافة من فوق وتحت */
+    max-width: 1200px; /* عرض أقصى */
+}
+
+/* تنسيق العمود الأيسر */
+.left-column {
+    flex: 1; /* يأخذ المساحة المتبقية */
+    padding: 20px; /* حشوة داخلية */
+    display: flex; /* ترتيب عمودي */
+    flex-direction: column; /* ترتيب عمودي */
+    justify-content: center; /* توسيط عمودي */
+}
+
+/* تنسيق العناوين في العمود الأيسر */
+.left-column h2 {
+    font-size: 24px; /* حجم الخط */
+    color: #4b0082; /* لون بنفسجي داكن */
+    margin-bottom: 10px; /* مسافة تحت العنوان */
+}
+
+.left-column h3 {
+    font-size: 36px; /* حجم الخط */
+    color: #6a0dad; /* لون بنفسجي */
+    margin-bottom: 15px; /* مسافة تحت العنوان */
+}
+
+/* تنسيق الفقرات في العمود الأيسر */
+.left-column p {
+    font-size: 16px; /* حجم الخط */
+    line-height: 1.6; /* تباعد الأسطر */
+    color: #555; /* لون النص */
+    margin-bottom: 20px; /* مسافة تحت الفقرة */
+}
+
+/* تنسيق الزر */
+.download-cv {
+    background-color: #6a0dad; /* خلفية بنفسجية */
+    color: #fff; /* لون النص أبيض */
+    padding: 12px 20px; /* حشوة داخلية */
+    border: none; /* إزالة الحدود */
+    border-radius: 8px; /* زوايا دائرية */
+    cursor: pointer; /* شكل المؤشر */
+    font-size: 16px; /* حجم الخط */
+    text-transform: uppercase; /* تكبير الأحرف */
+    font-weight: bold; /* جعل النص عريض */
+    transition: background-color 0.3s; /* تأثير عند المرور */
+}
+
+/* تأثير عند مرور الماوس فوق الزر */
+.download-cv:hover {
+    background-color: #4b0082; /* لون أغمق عند المرور */
+}
+
+/* تنسيق العمود الأيمن */
+.right-column {
+    flex: 0 0 auto; /* منع التمدد */
+    display: flex; /* ترتيب عمودي */
+    flex-direction: column; /* ترتيب عمودي */
+    justify-content: center; /* توسيط عمودي */
+    align-items: center; /* توسيط أفقي */
+}
+
+/* تنسيق الصورة */
+.right-column img {
+    width: 150px; /* عرض ثابت */
+    height: auto; /* الحفاظ على النسبة */
+    border-radius: 50%; /* جعل الصورة دائرية */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); /* ظل للصورة */
+    margin-bottom: 10px; /* مسافة تحت الصورة */
+}
+
+/* تنسيق نص التسمية تحت الصورة */
+.image-caption {
+    font-size: 14px; /* حجم الخط */
+    color: #6a0dad; /* لون بنفسجي */
+    font-weight: bold; /* جعل النص عريض */
+}
+
+/* تنسيق الفوتر */
+footer {
+    text-align: center; /* توسيط النص */
+    padding: 15px 0; /* حشوة داخلية */
+    background-color: #6a0dad; /* خلفية بنفسجية */
+    color: #fff; /* لون النص أبيض */
+}
